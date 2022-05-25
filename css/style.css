@@ -1,0 +1,170 @@
+ul {
+    background-color: rgb(253, 249, 249);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 35px;
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background: rgb(241, 160, 239);
+    background: linear-gradient(90deg, rgba(241, 160, 239, 1) 19%, rgba(224, 175, 196, 1) 26%, rgba(245, 191, 211, 1) 53%, rgba(152, 215, 228, 1) 100%);
+
+
+
+}
+.carousel-inner{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-attachment: fixed;
+   height: 500px;
+
+
+}
+p {
+    font-style: initial;
+}
+
+li {
+    text-decoration: rgb(241, 2, 241);
+    display: inline;
+    padding: 10px;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center space-between;
+}
+
+.rojo {
+    max-width: 50px;
+    max-height: 50px;
+    transition: all 1s linear;
+}
+
+.rojo:hover {
+    padding-left: 10px;
+    transform: scale(2, 2);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    margin-block-end: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    background-image: url('../images/miniso.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.cajita {
+    height: 240px;
+    ;
+    width: 200px;
+    background-color: brown;
+    border: 3px solid black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cajita img {
+
+    width: 100px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-column-gap: 10px;
+    margin-top: 10px;
+
+
+
+
+}
+
+ul li a:hover {
+    background-color: rgb(184, 62, 62);
+    padding: 11px;
+
+
+}
+
+
+
+div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@keyframes movimiento{
+    0%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: rgb(128, 238, 26);
+    }
+
+}
+
+@media screen and (max-width:786px) {
+    .img {
+        height: 100%;
+
+    }
+
+
+
+    iframe {
+        width: 100%;
+
+    }
+
+}
